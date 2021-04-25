@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Simple registration form</title>
+    <link rel="stylesheet" type="text/css" href="./css/style.css" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css"
+        integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous" />
+    <script type="javascript/text" src="./src/select-province-comuni.js"></script>
+</head>
+
+<body>
+    <div class="main-block">
+        <h1>Provincia e Comune</h1>
+        <form action="/">
+            <hr />
+            <label id="icon" for="name"><i class="fas fa-map-marked-alt"></i></label>
+            <select name="no_provincia" id="no_provincia" required >
+                <option value disabled>Seleziona la provincia</option>
+            </select>
+            <label id="icon" for="name"><i class="fas fa-city"></i></label>
+            <select name="no_citta" id="no_citta" required >
+                <option value disabled>Seleziona il comune</option>
+            </select>
+            <hr />
+        </form>
+    </div>
+</body>
+
+</html>
