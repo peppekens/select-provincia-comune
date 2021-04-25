@@ -60,7 +60,7 @@ label#icon {
 }
 #icon {
   display: inline-block;
-  padding: 9px 15px 12pxx;
+  padding: 9px 15px 12px;
   box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.09);
   background: #1c87c9;
   color: #fff;
